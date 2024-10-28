@@ -331,7 +331,38 @@ button,
 
 .main-header .bottom-header .dropdown-chld a:hover {
     color: var(--primary_color);
-    text-decoration: underline;
+}
+
+.main-header .bottom-header .dropdown-chld i {
+    font-size: 12px;
+    display: none;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.main-header .bottom-header .dropdown-chld a:hover i {
+    display: block;
+}
+
+.main-header .bottom-header .submenu-content {
+    display: none;
+    border-left: 1px solid var(--gray_color);
+    padding-left: 40px;
+}
+
+.main-header .bottom-header .submenu-content p {
+    font-size: var(--sm);
+}
+
+.main-header .bottom-header .submenu-content img {
+    border-radius: var(--round_sm);
+    -webkit-border-radius: var(--round_sm);
+    -moz-border-radius: var(--round_sm);
+    -ms-border-radius: var(--round_sm);
+    -o-border-radius: var(--round_sm);
 }
 
 .main-header .searchbar {
