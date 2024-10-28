@@ -347,6 +347,12 @@ button,
     display: block;
 }
 
+.main-header .bottom-header .dropdown-chld .submenu-selector.active,
+.main-header .bottom-header .dropdown-chld .submenu-selector.active i {
+    color: var(--primary_color);
+    display: block;
+}
+
 .main-header .bottom-header .submenu-content {
     display: none;
     border-left: 1px solid var(--gray_color);
