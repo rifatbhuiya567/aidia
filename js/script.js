@@ -23,18 +23,12 @@
 
     $('.submenu-selector.one').on('mouseover', function () {
         $('.submenu-content.one').show(500);
-    });
-
-    $('.submenu-selector.one').on('mouseout', function () {
-        $('.submenu-content.one').hide(500);
+        $('.submenu-content.two').hide(500);
     });
 
     $('.submenu-selector.two').on('mouseover', function () {
         $('.submenu-content.two').show(500);
-    });
-
-    $('.submenu-selector.two').on('mouseout', function () {
-        $('.submenu-content.two').hide(500);
+        $('.submenu-content.one').hide(500);
     });
 
     $('.btt').on('click', function () {
